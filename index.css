@@ -26,6 +26,7 @@ header h1 {
 }
 
 .socials {
+    width: fit-content;
 	font-size: 1vh;
 	display: flex;
   	align-items: center;
