@@ -1,0 +1,68 @@
+html {
+	width: 100%;
+	height: 100%;
+}
+
+body {
+	width: 100%;
+	height: 100%;
+  margin: 0px;
+  font-family: sans-serif;
+	color: white;
+  background: url(img/background_fuzzy.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.no-webp body {
+	background-image: url(img/background.png);
+}
+
+.webp body {
+	background-image: url(img/background.webp);
+}
+
+header h1 {
+	font-size: 5vh;
+  letter-spacing: 0.8vh;
+	margin: 2vh;
+}
+
+.socials {
+	font-size: 1vh;
+	display: flex;
+  align-items: center;
+}
+
+.social-icons {
+	min-height: 2vh;
+	max-height: 3.2vh;
+	margin: 2vh;
+}
+
+.social-icons:hover {
+	filter: gray;
+	transform: scale(1.1);
+  -webkit-filter: grayscale(1);
+  -webkit-transform: scale(1.1);
+}
+
+footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	text-align: center;
+}
+
+#dennis-seiter {
+	width: fit-content;
+  float: left;
+  margin-left: 2vh;
+}
+
+#dennis-seiter-logo {
+	min-height: 1vh;
+	max-height: 2.2vh;
+}
