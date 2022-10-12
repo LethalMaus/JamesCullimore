@@ -29,6 +29,8 @@ header h1 {
 	font-size: 1vh;
 	display: flex;
   	align-items: center;
+  	color: white;
+    text-decoration: none;
 }
 
 .social-icons {
@@ -37,7 +39,7 @@ header h1 {
 	margin: 2vh;
 }
 
-.social-icons:hover {
+.socials:hover .social-icons {
 	filter: gray;
 	transform: scale(1.1);
   	-webkit-filter: grayscale(1);
