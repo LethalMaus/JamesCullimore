@@ -37,6 +37,8 @@ header h1 {
 .social-icons {
 	min-height: 2vh;
 	max-height: 3.2vh;
+	min-width: 2vh;
+    max-width: 3.2vh;
 	margin: 2vh;
 }
 
@@ -63,4 +65,6 @@ footer {
 #dennis-seiter-logo {
 	min-height: 1vh;
 	max-height: 2.2vh;
+	min-width: 1vh;
+    max-width: 2.2vh;
 }
