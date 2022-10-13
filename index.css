@@ -65,6 +65,5 @@ footer {
 #dennis-seiter-logo {
 	min-height: 1vh;
 	max-height: 2.2vh;
-	min-width: 1vh;
-    max-width: 2.2vh;
+	width: auto;
 }
