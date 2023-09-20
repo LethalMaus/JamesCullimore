@@ -15,7 +15,7 @@
 		<meta property="og:type" content="website"/>
 		<meta property="og:url" content="https://jamescullimore.dev"/>
 		<meta property="og:image" content="https://jamescullimore.dev/img/background.png"/>
-		<meta property="og:description" content="Mobile Application Developer & Freelancer"/>
+		<meta property="og:description" content="Freelance Android Developer"/>
 		<title>James Cullimore</title>
 		<link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
 		<link rel="stylesheet" href="index.css" type="text/css">
@@ -45,6 +45,20 @@
 			</picture>
 			<h1>Contributions</h1>
 		</a>
+		<a class="socials" href="https://jamescullimore.medium.com/">
+			<picture>
+				<source srcset="img/medium.webp" type="image/webp">
+				<img class="social-icons" height="42" width="42" src="img/medium.png" alt="Medium">
+			</picture>
+			<h1>Publications</h1>
+		</a>
+		<a class="socials" href="https://www.fiverr.com/cullimorejames">
+			<picture>
+				<source srcset="img/fiverr.webp" type="image/webp">
+				<img class="social-icons" height="42" width="42" src="img/fiverr.png" alt="Fiverr">
+			</picture>
+			<h1>Services</h1>
+		</a>
 		<a class="socials" href="mailto:info@jamescullimore.dev">
 			<picture>
 				<source srcset="img/mail.webp" type="image/webp">
@@ -52,6 +66,21 @@
 			</picture>
 			<h1>Hello</h1>
 		</a>
+		<div class="testimonial-container">
+			<button id="prev-button" class="nav-button">&lt;</button>
+			<div class="testimonial" onclick="window.open('https://www.linkedin.com/in/james-cullimore', '_blank').focus();">
+				<div class="testimonial-author">
+					<img id="testimonial-image" src="" alt="Testimonial Image">
+					<div>
+						<div id="testimonial-author"></div>
+						<div id="testimonial-company"></div>
+					</div>
+				</div>
+				<p id="testimonial-text"></p>
+			</div>
+			<button id="next-button" class="nav-button">&gt;</button>
+		</div>
+		<script src="script.js"></script>
 		<footer>
 			<a id="dennis-seiter" href="https://dennis-seiter.de/">
 				<picture>

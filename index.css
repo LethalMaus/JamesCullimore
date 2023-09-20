@@ -9,6 +9,7 @@ body {
   	-moz-background-size: cover;
   	-o-background-size: cover;
   	background-size: cover;
+	overflow: hidden;
 }
 
 .no-webp body {
@@ -38,15 +39,90 @@ header h1 {
 	min-height: 2vh;
 	max-height: 3.2vh;
 	min-width: 2vh;
-    max-width: 3.2vh;
-	margin: 2vh;
+	max-width: 3.2vh;
+	margin: 1vh 2vh 1vh 2vh;
 }
 
 .socials:hover .social-icons {
 	filter: gray;
 	transform: scale(1.1);
-  	-webkit-filter: grayscale(1);
-  	-webkit-transform: scale(1.1);
+	-webkit-filter: grayscale(1);
+	-webkit-transform: scale(1.1);
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.testimonial-container {
+	background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    height: 27vh;
+    width: 80vw;
+    max-width: 1000px;
+    max-height: 250px;
+    min-height: 200px;
+    position: absolute;
+    bottom: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: none;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.testimonial {
+	animation-duration: 1s;
+	animation-timing-function: ease-in-out;
+	animation-fill-mode: both;
+	animation-delay: 0.5s;
+}
+
+#testimonial-image {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    margin-right: 20px;
+	animation: slideInImage 1s ease-in-out forwards;
+}
+
+#testimonial-text {
+    overflow: hidden;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 7;
+    display: -webkit-box;
+}
+
+#testimonial-company {
+	margin-top: 15px;
+}
+
+.testimonial-author {
+    display: flex;
+}
+
+.testimonial-card.slide-in .testimonial-text {
+    color: rgba(255, 255, 255, 1);
+}
+
+.nav-button {
+	color: white;
+    background-color: transparent;
+    border: none;
+	padding-left: 10px;
+	padding-right: 10px;
+    font-size: 24px;
+    cursor: pointer;
+    align-self: center;
+}
+
+.nav-button:hover {
+    background-color: rgba(255, 255, 255, 0.2);
 }
 
 footer {
