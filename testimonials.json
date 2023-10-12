@@ -1,38 +1,51 @@
 [
     {
+		"image": "https://marktmeister-pro.de/wp-content/uploads/2022/06/MarktmeisterPro_Logo.png",
+        "text": "As part of the app development project Marktgalerie, aimed at assisting market and festival planners in documenting their events through photos, we had the pleasure of collaborating with James. James initially served as an auditor and consultant for the existing prototype. Due to his high level of technical expertise, his dependable and fast assistance, and his ability to convey complex technical concepts with precision, we decided during the course of the project to entrust him with further development of the app. This decision was not one we regretted. In a very short time, together with James, we were able to create an app that provides our clients with comprehensive support for photo documentation. We look forward to our future projects and the opportunities to work with James once again.",
+        "author": "Kira Stolley",
+        "company": "Marktmeister Pro",
+		"link": "https://marktmeister-pro.de/"
+    },
+	{
 		"image": "https://media.licdn.com/dms/image/D4E03AQEcUY7V6I9_rg/profile-displayphoto-shrink_100_100/0/1685178223188?e=1700697600&v=beta&t=u99fMf0JxdIWmt9hjFqNouJYAEBapdqZDJl9P75ls5w",
         "text": "I have the pleasure of working with James on my Android project, Neurofly, where we intend to develop the corresponding Android app further as a project of Bridge the Gap. I can't recommend James enough. James is not only a top-notch Android developer but also an exceptional team player. His ability to review code, provide insightful feedback, and teach best practices is truly remarkable. James consistently delivers architectural recommendations that elevate the project's quality and performance. What sets him apart is his excellent communication skills and unwavering passion for his work. He's not only dedicated to his own tasks but also deeply understanding of how best to support the project and its owner. James is an invaluable asset to any Android development team, and I look forward to the opportunity to our ongoing collaboration.",
         "author": "Christian Bayerlein",
-        "company": "Neurofly"
+        "company": "Neurofly",
+		"link": "https://bridgethegap.consulting/"
     },
     {
 		"image": "https://media.licdn.com/dms/image/C4D0BAQFpSBNZfW8-7w/company-logo_200_200/0/1612422592906?e=2147483647&v=beta&t=6FXxpNVDwoibkjeAoHCBpkz43-cGvHphsWYdaY4le_Q",
         "text": "During his time as a freelancer for Biberei, I had the opportunity to work with James, who helped us in his role as a software developer. From the very beginning, he impressed us with his high degree of independence and the level of personal responsibility with which he carried out his tasks. Thanks to his expertise, we were able to select the right tool for our project, which he seamlessly integrated into the implementation. His clear and goal-oriented communication made our collaboration straightforward and productive. I can wholeheartedly recommend James and hope for further joint projects in the future.",
         "author": "Marco Berger",
-		"company": "Die Biberei"
+		"company": "Die Biberei",
+		"link": "https://www.biberei.de/"
     },
     {
 		"image": "https://media.licdn.com/dms/image/C4D0BAQF-44b2YTEsdQ/company-logo_200_200/0/1519921832713?e=2147483647&v=beta&t=Onnbts2E_68lzjjuW5mJnd8lc_apSZCq1tPbXE3rcN8",
         "text": "James worked with me on the lexoffice app (Android) for nearly a year. He possesses a very broad and in-depth knowledge of UI testing and its associated infrastructure. He applied this knowledge intensively to significantly advance code coverage. James has excellent time management and communication skills. Working with him was always very pleasant, productive, and constructive, both personally and professionally. I highly appreciate him and his abilities as an Android developer! I can wholeheartedly recommend James for any type of Android projects and look forward to working with him on a project again in the future",
         "author": "Michael Götze",
-		"company": "Lexoffice"
+		"company": "Lexoffice",
+		"link": "https://www.lexoffice.de/"
     },
 	{
 		"image": "https://media.licdn.com/dms/image/C4D0BAQGYPBjzboO9QQ/company-logo_200_200/0/1636120301312?e=1703116800&v=beta&t=zfrZ4GQ6LId0YEbPJQgtY9opkvUOMMtupCEPbiFsw8k",
         "text": "I've been working with James at farmerJoe GmbH since November 2021. He joined as fullstack engineer with strong experience in mobile development. In short time he showed excellent skills in solving complex issues. With his solid experience in Android development, he was able to make the farmerJoe mobile app much better and much stable. Moreover, with his background in IoT and rich history of working with mobile devices, he was able to discover issues, that otherwise could have remained hidden. James really takes time to learn and to deep dive in unfamiliar topics. He's always open for feedback and he seeks to learn from more experienced peers. Down to earth, James communicates straight the facts and the reality. I know that James has the skills to be an outstanding addition to any company and any product. If I have a chance, I would love to team up with him anytime.",
 		"author": "Viktor Penkov",
-		"company": "farmerJoe"
+		"company": "farmerJoe",
+		"link": "https://farmerjoe.com/"
     },
 	{
 		"image": "https://media.licdn.com/dms/image/C4D0BAQF-44b2YTEsdQ/company-logo_200_200/0/1519921832713?e=2147483647&v=beta&t=Onnbts2E_68lzjjuW5mJnd8lc_apSZCq1tPbXE3rcN8",
         "text": "I am thrilled to recommend James as an outstanding Android developer. We had the pleasure of working together on the lexoffice app for a year, and his input has been invaluable. James is not only an expert developer, but also a fantastic communicator. He always remained calm and poised, even in difficult situations. He actively shared his knowledge and latest findings with the team, constantly updating us on new libraries and technologies. His passion for Android development is truly inspiring. He consistently delivered high quality work and met project deadlines. I truly enjoyed working with James and would wholeheartedly recommend him for any Android development opportunities. His experience, professionalism and positive attitude make him an asset to any team.",
         "author": "Artiom Carabas",
-		"company": "Lexoffice"
+		"company": "Lexoffice",
+		"link": "https://www.lexoffice.de/"
     },
 	{
 		"image": "https://media.licdn.com/dms/image/C4D0BAQGYPBjzboO9QQ/company-logo_200_200/0/1636120301312?e=1703116800&v=beta&t=zfrZ4GQ6LId0YEbPJQgtY9opkvUOMMtupCEPbiFsw8k",
         "text": "When recruiting for our mobile app engineers during the initial phase of our startup, I knew I don’t need to look any further when interviewing James. James brings holistic expertise in IT to table. How often do you come across a true engineer (and not just a feature developer)? James’ ability to work himself into any stack and solve any problem (or tell you that you should forget about it :-) ) is a rare skill set. He solves not only technical challenges fast, but also always keeps the eventual solution for the users in mind. James brings along a “Swiss knife”-like ensemble of skills from creating UI elements to working on backend tasks. His approaches are always pragmatic and “fit for purpose”. Besides knowing very well how he would do it, James is also very good in communicating the team pro’s and con’s of a decision and providing his recommendation on the way forward. James also helped us to improve our existing processes and introduce new ones enabling us to improve quality and efficiency of team collaboration.",
         "author": "André Jung",
-		"company": "farmerJoe"
+		"company": "farmerJoe",
+		"link": "https://farmerjoe.com/"
     }
 ]

@@ -20,6 +20,10 @@ fetch("testimonials.json")
                 testimonialAuthor.textContent = data[index].author;
                 testimonialCompany.textContent = data[index].company;
 				testimonial.style.animationName = "fadeIn";
+				let link = data[index].link
+				testimonial.addEventListener("click", function() {
+					window.open(link, '_blank').focus();
+				});
 				index = (index + 1) % data.length;
 				testimonialContainer.style.display = "flex";
 				const containerHeight = testimonialContainer.clientHeight;
@@ -32,7 +36,7 @@ fetch("testimonials.json")
 
         const autoScrollInterval = setInterval(() => {
             displayTestimonial();
-        }, 5500);
+        }, 5000);
 
         nextButton.addEventListener("click", () => {
             clearTimeout(animationTimeout);
