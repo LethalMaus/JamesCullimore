@@ -35,15 +35,22 @@ header h1 {
     text-decoration: none;
 }
 
-.social-icons {
+.icons {
 	min-height: 2vh;
 	max-height: 3.2vh;
 	min-width: 2vh;
 	max-width: 3.2vh;
+}
+
+.social-icons {
 	margin: 1vh 2vh 1vh 2vh;
 }
 
-.socials:hover .social-icons {
+.testimonial-icons {
+	margin-right: 8px;
+}
+
+.socials:hover .icons {
 	filter: gray;
 	transform: scale(1.1);
 	-webkit-filter: grayscale(1);
@@ -65,7 +72,6 @@ header h1 {
     height: 27vh;
     width: 80vw;
     max-width: 1000px;
-    max-height: 250px;
     min-height: 200px;
     position: absolute;
     bottom: 40px;
@@ -76,11 +82,18 @@ header h1 {
     justify-content: space-between;
 }
 
+.testimonial-container.enlarge {
+	height: max-content;
+	max-height: 90vh;
+}
+
 .testimonial {
 	animation-duration: 1s;
 	animation-timing-function: ease-in-out;
 	animation-fill-mode: both;
 	animation-delay: 0.5s;
+	margin-top: 30px;
+	margin-bottom: 30px;
 }
 
 #testimonial-image {
@@ -93,14 +106,18 @@ header h1 {
 }
 
 #testimonial-text {
-    overflow: hidden;
+    overflow-x: hidden;
     -webkit-box-orient: vertical;
     -webkit-line-clamp: 7;
     display: -webkit-box;
+	max-height: 60vh;
 }
 
 #testimonial-company {
-	margin-top: 15px;
+	margin: 5px;
+}
+#testimonial-author {
+	margin: 5px;
 }
 
 .testimonial-author {
@@ -109,6 +126,10 @@ header h1 {
 
 .testimonial-card.slide-in .testimonial-text {
     color: rgba(255, 255, 255, 1);
+}
+
+#testimonial-links {
+	display: none;
 }
 
 .nav-button {
